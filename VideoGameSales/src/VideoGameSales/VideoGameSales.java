@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package VideoGameSales;
-
+import java.util.ArrayList;
 /**
  *
  * @author jfhs-lab3021-22
@@ -16,7 +16,7 @@ public class VideoGameSales {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+        ArrayList<VideoGames> sales = new ArrayList<VideoGames>();
     }
     
 }
