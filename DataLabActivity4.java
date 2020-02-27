@@ -4,11 +4,6 @@
  * and open the template in the editor.
  */
 package datalabactivity4;
-
-import core.data.DataSource;
-import java.util.ArrayList;
-import java.util.Scanner;
-
 /**
  *
  * @author jfhs-lab3021-21
@@ -56,6 +51,52 @@ public class DataLabActivity4 {
         this.rating = rating;
     }
     
-    
-    
+    public String name() { 
+      return name;
+   }
+   
+   /* Produce the name of this station */
+   public String platform() { 
+      return platform;
+   }
+   public int yearOfRelease(){
+       return yearOfRelease;
+   }
+   public String genre(){
+       return genre;
+   }
+   public String publisher(){
+       return publisher;
+   }
+   public double naSales(){
+       return naSales;
+   }
+   public double euSales(){
+       return euSales;
+   }
+   public double jpSales(){
+       return jpSales;
+   }
+   public double globalSales(){
+       return globalSales;
+   }
+   public int criticScore(){
+       return criticScore;
+   }
+   public int criticCount(){
+       return criticCount;
+
+   }
+   public int userScore(){
+       return userScore;
+   }
+   public int userCount(){
+       return userCount;
+   }
+   public String developer(){
+       return developer;
+   }
+   public int rating(){
+       return rating;
+   }
 }
