@@ -32,7 +32,7 @@ public class VideoGames {
     private String developer;
     private int rating;
     
-    VideoGames(String name, String platform, int yearOfRelease, String genere, String publisher, double naSales, double euSales, double jpSales, double globalSales, int criticScore, int criticCount, int userScore, int userCount, String developer, int rating)
+    VideoGames(String name, String platform, int yearOfRelease, String genre, String publisher, double naSales, double euSales, double jpSales, double globalSales, int criticScore, int criticCount, int userScore, int userCount, String developer, int rating)
     {
         this.name = name;
         this.platform = platform;
