@@ -4,25 +4,29 @@
  * and open the template in the editor.
  */
 package VideoGameSales;
-import java.util.ArrayList;
 import core.data.*;
+import java.util.Scanner;
+import java.util.ArrayList;
 /**
  *
  * @author jfhs-lab3021-22
  */
-public class VideoGameSales {
+public class JavaApplication1 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        DataSource ds = DataSource.connect("C:\\Users\\Burni\\OneDrive\\Documents\\GitHub\\AP_CSA_Data\\VideoGameSales\\VideoGameSales\\Video_Game_Sales.csv");
-        ds.load();
+        DataSource ds = DataSource.connect("Z:\\VideoGameSales.csv").load();
         ds.printUsageString();
-        ArrayList<VideoGames> sales = ds.fetchList("VideoGames", "VideoGames/name", "VideoGames/platform", "VideoGames/yearOfRelease", "VideoGames/genre", "VideoGames/publisher", "VideoGames/naSales", "VideoGames/euSales", "VideoGames/jpSales", "VideoGames/otherSales", "VideoGames/globalSales", "VideoGames/criticScore", "VideoGames/criticCount", "VideoGames/userScore", "VideoGames/userCount", "VideoGames/developer", "VideoGames/rating");
-        System.out.println(sales.get(1));
+        ArrayList<VideoGames> sales = ds.fetchList(VideoGames.class, "Name", "Platform", "Year_of_Release", "Genre", "Publisher", "NA_Sales", "EU_Sales", "JP_Sales", "Other_Sales", "Global_Sales", "Critic_Score", "Critic_Count", "User_Score", "User_Count", "Developer", "Rating");
+        System.out.println("What game do you want to find");
+        Scanner input = new Scanner(System.in);
+
     }
     
+
+
 }
 
 
