@@ -3,17 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package datalabactivity4;
-
-import core.data.DataSource;
-import java.util.ArrayList;
-import java.util.Scanner;
+package VideoGameSales;
 
 /**
  *
  * @author jfhs-lab3021-21
  */
-public class DataLabActivity4 {
+public class VideoGames {
 
     /**
      * @param args the command line arguments
@@ -36,7 +32,7 @@ public class DataLabActivity4 {
     private String developer;
     private int rating;
     
-    DataLabActivity4(String name, String platform, int yearOfRelease, String genere, String publisher,double naSales,double euSales, double jpSales, double globalSales,int criticScore, int criticCount,int userScore, int userCount,String developer, int rating)
+    VideoGames(String name, String platform, int yearOfRelease, String genre, String publisher, double naSales, double euSales, double jpSales, double globalSales, int criticScore, int criticCount, int userScore, int userCount, String developer, int rating)
     {
         this.name = name;
         this.platform = platform;
