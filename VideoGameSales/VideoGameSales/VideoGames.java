@@ -52,7 +52,54 @@ public class VideoGames {
             this.rating = rating;
         }
         
-        
+        public String getName(){
+          return name;
+        }
+         public String getPlatform(){
+          return platform;
+        }
+         public int getYearOfRelease(){
+          return yearOfRelease;
+        }
+         public String getGenre(){
+          return genre;
+        }
+         public String getPublisher(){
+          return publisher;
+        }
+         public double getNaSales(){
+          return naSales;
+        }
+         public double getEuSales(){
+          return euSales;
+        }
+         public double getjpSales(){
+          return name;
+        }
+         public double getOtherSales(){
+          return otherSales;
+        }
+         public double getGlobalSales(){
+          return globalSales;
+        }
+         public int getCriticScore(){
+          return criticScore;
+        }
+         public int getCriticCount(){
+          return criticCount;
+        }
+         public double getUserScore(){
+          return userScore;
+        }
+         public int getUserCount(){
+          return userCount;
+        }
+         public String getDeveloper(){
+          return developer;
+        }
+         public String getRating(){
+          return rating;
+        }
 
 
 
