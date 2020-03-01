@@ -74,7 +74,7 @@ public class VideoGames {
           return euSales;
         }
          public double getjpSales(){
-          return name;
+          return jpSales;
         }
          public double getOtherSales(){
           return otherSales;
@@ -100,7 +100,12 @@ public class VideoGames {
          public String getRating(){
           return rating;
         }
+        public String toString(){
+            return "\n" + getName() + " Statistics:\nPlatform: " + getPlatform() + "\nYear of Release: " + getYearOfRelease() + "\nGenre: " + getGenre() + "\nPublisher: " + getPublisher() + "\nNA Sales: " +
+                    getNaSales() + "\nEU Sales: " + getEuSales() + "\nJP Sales: " + getjpSales() + "\nOther Sales: " + getOtherSales() + "\nGlobal Sales: " + getGlobalSales() + "\nCritic Score: " +
+                    getCriticScore() + "\nCritic Number: " + getCriticCount() + "\nUser Score: " + getUserScore() + "\nUser Count: " + getUserCount() + "\nDeveloper: " + getDeveloper() + "\nRating: " + getRating() + "\n";
 
+        }
 
 
     }
